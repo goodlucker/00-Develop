@@ -1,0 +1,8 @@
+import codecs
+
+unicode_text = "\u662F\u975E\u5E94\u7B54 (\u662F\u5B50\u96C6)"
+
+# 使用codecs库将Unicode转义的文本解码为正常文本
+decoded_text = codecs.decode(unicode_text, 'unicode_escape')
+
+print(decoded_text)

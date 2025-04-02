@@ -1,0 +1,27 @@
+{
+    "project_path": "path/to/project",
+    "sas_executable": "path/to/sas.exe",
+    "sas_config": "path/to/sas.cfg",
+    "scripts": {
+        "Metadata": {
+            "dev": [],
+            "qc": []
+        },
+        "SDTM": {
+            "dev": [],
+            "qc": []
+        },
+        "ADaM": {
+            "dev": [],
+            "qc": []
+        },
+        "TLFs": {
+            "dev": [],
+            "qc": []
+        },
+        "Other": {
+            "dev": [],
+            "qc": []
+        }
+    }
+}

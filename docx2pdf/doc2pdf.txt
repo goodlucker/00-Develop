@@ -1,0 +1,11 @@
+#查找当前目录下的全部word文件
+import os
+import glob
+from pathlib import Path
+
+path = os.getcwd() + '/'
+p = Path(D:\98_App\python\00_develop\docx2pdf) #初始化构造Path对象
+FileList=list(p.glob("**/*.docx")) 
+
+for file in FileList:
+    convert(file,f"{file}.pdf")
